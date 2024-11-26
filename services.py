@@ -127,3 +127,62 @@ def get_location_data():
     return {
         "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0000000000005!2d-75.69773268453418!3d45.42152957910129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b2c5b8e3d7%3A0x3f8f5e2b6c1d0c4d!2sParliament%20Hill!5e0!3m2!1sen!2sca!4v1637941191734!5m2!1sen!2sca",
     }
+
+
+def get_services_data():
+    return [
+        {
+            "id": "1",
+            "name": "Oil Change",
+            "description": "Professional oil change with synthetic oils",
+            "icon": "GaugeCircle"
+        },
+        {
+            "id": "2",
+            "name": "Diagnostics",
+            "description": "Computer diagnostics for all makes",
+            "icon": "GaugeCircle"
+        },
+        {
+            "id": "3",
+            "name": "Brake Service",
+            "description": "Complete brake inspection and repair",
+            "icon": "Wrench"
+        },
+        {
+            "id": "4",
+            "name": "Tire Service",
+            "description": "Rotation, balancing, and installation",
+            "icon": "Car"
+        },
+        {
+            "id": "5",
+            "name": "Battery Service",
+            "description": "Testing and replacement services",
+            "icon": "Battery"
+        },
+        {
+            "id": "6",
+            "name": "Engine Repair",
+            "description": "Complete engine diagnostics & repair",
+            "icon": "Cog"
+        },
+        {
+            "id": "7",
+            "name": "Fuel System",
+            "description": "Fuel system cleaning & maintenance",
+            "icon": "Fuel"
+        },
+        {
+            "id": "8",
+            "name": "Body Work",
+            "description": "Dent repair and body maintenance",
+            "icon": "Hammer"
+        },
+        {
+            "id": "9",
+            "name": "Detailing",
+            "description": "Interior and exterior detailing",
+            "icon": "Sparkles"
+        }
+    ]

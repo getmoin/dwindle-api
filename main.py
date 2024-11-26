@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from services import get_client_data,  get_achievements_data, get_location_data
+from services import get_client_data,  get_achievements_data, get_location_data, get_services_data
 
 app = FastAPI()
 
@@ -38,6 +38,14 @@ async def get_achievements():
 async def get_location():
     try:
         client_data = get_location_data()
+        return client_data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/services")
+async def get_services():
+    try:
+        client_data = get_services_data()
         return client_data
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
