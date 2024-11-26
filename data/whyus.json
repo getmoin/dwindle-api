@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "title": "Experience",
+        "value": "20+",
+        "description": "Years Serving",
+        "icon": "Clock"
+    },
+    {
+        "id": "2",
+        "title": "Mechanics",
+        "value": "15",
+        "description": "Certified Experts",
+        "icon": "Users"
+    },
+    {
+        "id": "3",
+        "title": "Customers",
+        "value": "50K+",
+        "description": "Satisfied Clients",
+        "icon": "ThumbsUp"
+    },
+    {
+        "id": "4",
+        "title": "Warranty",
+        "value": "2 Yr",
+        "description": "Guarantee",
+        "icon": "Shield"
+    },
+    {
+        "id": "5",
+        "title": "Awards",
+        "value": "15+",
+        "description": "Industry Awards",
+        "icon": "Trophy"
+    },
+    {
+        "id": "6",
+        "title": "Rating",
+        "value": "4.9",
+        "description": "Customer Rating",
+        "icon": "Star"
+    },
+    {
+        "id": "7",
+        "title": "Services",
+        "value": "20+",
+        "description": "Types Offered",
+        "icon": "Users"
+    },
+    {
+        "id": "8",
+        "title": "Team",
+        "value": "30+",
+        "description": "Professionals",
+        "icon": "Users"
+    },
+    {
+        "id": "9",
+        "title": "Support",
+        "value": "24/7",
+        "description": "Available",
+        "icon": "Heart"
+    }
+]
